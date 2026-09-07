@@ -48,6 +48,7 @@ public final class MainActivity extends Activity {
         s.setBlockNetworkLoads(true); s.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW);
         s.setMediaPlaybackRequiresUserGesture(true); s.setSupportMultipleWindows(false);
         CookieManager.getInstance().setAcceptCookie(false);
+        web.setWebChromeClient(new WebChromeClient());
         WebView.setWebContentsDebuggingEnabled(false);
         WebViewAssetLoader loader = new WebViewAssetLoader.Builder().addPathHandler("/assets/", new WebViewAssetLoader.AssetsPathHandler(this)).build();
         web.setWebViewClient(new WebViewClient() {

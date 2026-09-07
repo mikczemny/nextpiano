@@ -83,7 +83,7 @@ public final class MidiController implements AutoCloseable {
     }
     public synchronized void send(int status, int a, int b) {
         if (output == null) return;
-        try { output.send(new byte[]{(byte)status, (byte)(a & 127), (byte)(b & 127)}); }
+        try { output.send(new byte[]{(byte)status, (byte)(a & 127), (byte)(b & 127)}, 0, 3); }
         catch (IOException ex) { listener.status("Błąd transmisji MIDI. Rozłącz i podłącz wyjście ponownie."); }
     }
     public void silenceOutput() { send(0xB0, 64, 0); send(0xB0, 123, 0); send(0xB0, 120, 0); }

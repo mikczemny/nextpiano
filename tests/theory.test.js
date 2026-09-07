@@ -12,6 +12,10 @@ check(()=>assert.deepEqual(T.diatonic('A',true).map(x=>x.roman),['i','ii°','♭
 check(()=>assert.equal(T.name(71),'B4'));
 check(()=>assert(T.samePitches([60,64,67,72],[48,52,55])));
 check(()=>assert(!T.samePitches([60,64,65,67],[60,64,67])));
+check(()=>assert.equal(T.diatonicScale('A',T.SCALES['Harmonic Minor'])[4].type,'Major'));
+check(()=>assert.equal(T.diatonicScale('C',T.SCALES.Dorian)[3].type,'Major'));
+check(()=>assert.deepEqual(T.diatonicScale('C',T.SCALES['Major Pentatonic']),[]));
+check(()=>assert(T.midi('C',T.CHORDS.Major,0,0).every(n=>n>=21&&n<=108)));
 for(const root of T.ROOTS)for(const formula of [...Object.values(T.SCALES),...Object.values(T.CHORDS)]){
  check(()=>T.notes(root,formula).forEach(n=>assert.equal(T.pc(n.name),n.pc)));
  check(()=>T.midi(root,formula,4,0).forEach((n,i)=>assert.equal(n%12,T.notes(root,formula)[i].pc)));

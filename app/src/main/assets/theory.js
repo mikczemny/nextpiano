@@ -59,8 +59,10 @@
   function notes(root, formula) { return formula.map(d=>({degree:display(d),name:spell(root,d),pc:mod(pc(root)+degree(d).semitones,12),interval:degree(d).semitones})); }
   function midi(root, formula, octave, inversion) {
     let result=formula.map(d=>12*(octave+1)+pc(root)+degree(d).semitones);
-    const inv = mod(inversion || 0,result.length);
+    // Inversions apply to chord voicings; a scale always starts on its root.
+    const inv = Object.values(SCALES).includes(formula) ? 0 : mod(inversion || 0,result.length);
     for(let i=0;i<inv;i++){let x=result.shift()+12;while(x<=result[result.length-1])x+=12;result.push(x);}
+    while(result[0]<21)result=result.map(n=>n+12);
     while(result[result.length-1]>108)result=result.map(n=>n-12);
     return result;
   }

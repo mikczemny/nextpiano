@@ -1,54 +1,32 @@
-# Google Play listing — Next Piano
+# Next Piano 2.0 — store listing draft
 
-## App name
-Next Piano: Scales & Chords
+Name: Next Piano: Theory & MIDI
+Category suggestion: Education. Target audience/content-rating forms must reflect the actual chosen audience; no automatic age-rating claim.
 
-## Short description — PL
-Klawiatura pianina do nauki tonacji, skal, stopni i akordów — całkowicie offline.
+Short description (PL): Teoria pianina, klawiatura MIDI, ćwiczenia słuchu i metronom — offline.
 
-## Full description — PL
-Next Piano to prosta, wizualna aplikacja do nauki zależności między klawiszami pianina, tonacjami, skalami i akordami.
+Full description (PL):
+Next Piano łączy atlas teorii muzyki z grą na ekranie i natywną obsługą USB MIDI na Androidzie.
 
-W trybie KEYS wybierasz gotową tonację Major lub Minor i od razu widzisz jej dźwięki, stopnie oraz akordy diatoniczne na klawiaturze. Tryb SCALES pozwala analizować najczęściej używane skale, a CHORDS pokazuje budowę akordów bez konieczności korzystania z zapisu nutowego.
+Poznaj 18 skal i 24 rodzaje akordów w różnych tonacjach. Zobacz składniki i stopnie nad klawiaturą, odkrywaj przewroty, akordy diatoniczne, koło kwintowe i gotowe progresje. Nazwy dźwięków są angielskie: B zamiast H.
 
-Najważniejsze funkcje:
-• wizualna klawiatura pianina dopasowana do telefonu i tabletu,
-• tonacje Major i Minor,
-• skale: Major, Natural Minor, Harmonic Minor, Melodic Minor, pentatoniki, Blues, Dorian i Mixolydian,
-• akordy Major, Minor, Diminished, Augmented oraz popularne akordy septymowe,
-• stopnie skali pokazane bezpośrednio nad odpowiednimi klawiszami,
-• podświetlanie dźwięków wybranego akordu,
-• zapis dźwięków A–G z B zamiast H,
-• tryb jasny i ciemny,
-• cztery palety kolorystyczne,
-• pełne działanie offline.
+Biblioteka zawiera 30 lekcji z polskimi objaśnieniami, praktycznymi wskazówkami, przykładami i pytaniami kontrolnymi. Trener słuchu ćwiczy rozpoznawanie interwałów, akordów i skal oraz odtwarzanie usłyszanego dźwięku. Graj zadania nutowe, skale i akordy na ekranie, klawiaturze komputerowej lub zgodnym instrumencie USB MIDI 1.0.
 
-Aplikacja nie wymaga konta, nie zawiera reklam i nie korzysta z internetu. Nie zbiera danych użytkownika.
+Metronom 30–240 BPM ma tap tempo, podziały rytmiczne i metra proste oraz złożone. Klawiatura ekranowa obsługuje wielodotyk, zmianę rejestru i sustain. Wbudowane brzmienie piano-like jest syntezowane; można też sterować wybranym instrumentem przez wyjście MIDI.
 
-## Short description — EN
-Learn piano keys, scales, degrees and chords visually — fully offline.
+Dostępne są jasny i ciemny motyw oraz cztery pastelowe palety. Postępy i ustawienia pozostają lokalnie na urządzeniu. Brak reklam, kont i analityki; aplikacja działa offline.
 
-## Full description — EN
-Next Piano is a visual learning tool for understanding the relationship between piano keys, musical keys, scales and chords.
+USB MIDI wymaga zgodnego urządzenia Android, klawiatury i połączenia danych, niekiedy adaptera USB host/OTG. Aplikacja nie rozpoznaje dźwięku akustycznego pianina przez mikrofon i nie zawiera własnego parowania Bluetooth MIDI. Metronom nie pracuje po przejściu aplikacji do tła.
 
-KEYS mode lets you select a Major or Minor key and immediately see its notes, scale degrees and diatonic chords on the keyboard. SCALES mode helps you explore common scale patterns, while CHORDS shows chord construction without requiring standard notation.
+EN short description: Piano theory, USB MIDI keyboard, ear training and metronome — offline.
 
-Features:
-• responsive piano keyboard for phones and tablets,
-• Major and Minor keys,
-• Major, Natural Minor, Harmonic Minor, Melodic Minor, pentatonic, Blues, Dorian and Mixolydian scales,
-• Major, Minor, Diminished, Augmented and common seventh chords,
-• scale degrees positioned above the corresponding keys,
-• full-key highlighting for selected chord notes,
-• A–G note naming with B,
-• light and dark modes,
-• four color palettes,
-• fully offline operation.
+Release notes PL:
+<pl-PL>
+Nowe Studio: 18 skal, 24 typy akordów, koło kwintowe i progresje.
+30 lekcji z pytaniami, trener słuchu i ćwiczenia gry.
+Klawiatura wielodotykowa, natywne USB MIDI i synteza dźwięku.
+Metronom z tap tempo, podziałami i metrami złożonymi.
+Lokalne postępy i nowe responsywne motywy.
+</pl-PL>
 
-No account is required. The app contains no ads, does not use the internet and does not collect user data.
-
-## Category
-Education / Music & Audio — choose whichever Play Console classification fits best at submission time.
-
-## Suggested tags
-piano, music theory, scales, chords, keyboard, ear training, music education
+Before upload: verified signed release AAB (not Preview), developer contact, public privacy policy, accurate Data safety assessment, actual app screenshots and account-specific testing. Do not claim sampled grand piano, acoustic note recognition, Bluetooth pairing or MIDI 2.0.

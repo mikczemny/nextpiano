@@ -1,33 +1,15 @@
-# Next Piano — Privacy Policy
+# Next Piano 2.0 — Privacy policy
+Updated: 7 September 2026
 
-**Last updated: 5 September 2026**
+Next Piano is an offline educational app. It does not send personal data, learning results, MIDI events or usage data to the developer or third parties. There is no INTERNET permission, advertising, analytics, account, microphone recording or location access.
 
-Next Piano is an offline educational application for learning piano keys, scales and chords.
+The app stores preferences, lesson completion and exercise statistics locally in its private application data (WebView localStorage). These records are not transmitted. Version 2 uses a versioned local data schema. There is no cloud synchronization. App backup and device-transfer backup are excluded in the Android configuration.
 
-## Data collection
+Connected MIDI devices supply note, velocity and control messages for live sound and feedback. Incoming messages are processed transiently, not retained as recordings. When a user explicitly connects a MIDI output, screen/computer-keyboard note and sustain messages are sent to that selected instrument on channel 1. This is local device communication, not internet transmission or analytics.
 
-Next Piano does not collect, store, transmit, sell or share personal data or user activity data.
+The app has a Reset progress control for locally stored learning results. Android Clear storage or uninstall removes app data, including preferences. Preview and release editions use separate app identifiers and separate local data.
 
-## Accounts and identifiers
+The same practices apply to all users. Future changes to data handling require an updated privacy policy and Play Console Data safety assessment before publication.
 
-The app does not require an account and does not use advertising identifiers, analytics identifiers or device tracking.
-
-## Network access
-
-The Android application does not request the `INTERNET` permission. Its learning interface and musical data are bundled with the app and operate locally on the device.
-
-## Advertising and analytics
-
-The app contains no advertising SDKs, analytics SDKs or third-party tracking tools.
-
-## Children
-
-The app does not knowingly collect information from children or from any other users because it does not collect user data.
-
-## Changes
-
-If the app's data practices change in a future version, this policy and the Google Play Data safety declaration will be updated before that version is released.
-
-## Contact
-
-Project repository: https://github.com/mikczemny/nextpiano
+Developer project/contact channel: https://github.com/mikczemny/nextpiano/issues
+A public developer support email must also be configured in the Play Console listing before publication.
